@@ -1,0 +1,85 @@
+body {
+    background-color: #ffffe6;
+}
+
+h1, b {
+    text-align: center;
+    color: navy;
+}
+
+.table-heading {
+    background-color: coral;
+    font-size: larger;
+
+}
+
+.tableViewContainer, .formContainer, #tableFromDB {
+    overflow: hidden;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formContainer {
+    margin-top: 2.5em;
+    font-weight: bolder;
+}
+
+fieldset {
+    width: 50%;
+    height: fit-content;
+    line-height: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid navy;
+    border-radius: 25px;
+}
+fieldset legend {
+    font-size: x-large;
+    margin: 35px;
+    color: navy;
+}
+
+#mainForm fieldset {
+    width: 20%;
+}
+
+label {
+    display: inline-block;
+    width: 250px;
+    text-align: right;
+    margin-right: 30px;
+}
+
+.submitButton, .return_to_homepage button {
+    color: cornsilk;
+    font-family: "Arial Black";
+    font-weight: bold;
+    height: 35px;
+    line-height: 1.1em;
+    border-radius: 15px;
+}
+
+.submitButton {
+    background-color: #005ce6;
+}
+
+#mainForm .submitButton {
+    width: 100%;
+}
+
+/*
+#mainForm_addBook .submitButton {
+    background-color: red;
+}
+*/
+
+.return_to_homepage button {
+    background-color: #d279a6;
+    margin-right: 17.5%;
+}
+
+#mainForm .submitButton {
+    margin-top: 15px;
+}
+

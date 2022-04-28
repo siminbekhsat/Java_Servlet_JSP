@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Assignment2_Simin_Servlet_JSP:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Assignment2_Simin_Servlet_JSP</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Assignment2_Simin_Servlet_JSP-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Assignment2_Simin_Servlet_JSP:war exploded" />
+    </root>
+  </artifact>
+</component>
